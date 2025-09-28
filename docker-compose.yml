@@ -1,0 +1,7 @@
+services:
+  web:
+    build: .
+    ports:
+      - "3000:5000"
+#3000 → port on your host machine (outside Docker).
+#5000 → port inside the container (where your Node app is running).
